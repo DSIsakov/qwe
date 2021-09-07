@@ -17,7 +17,7 @@ function CreateMusic(){
 
     
     
-    audio.src = "https://github.com/DSIsakov/qwe/blob/main/НЮХАЙ%20БЕБРУ%20разными%20голосами.mp3"
+    audio.src = "https://www.lit.msu.ru/files/webform/asd.mp3"
     document.body.appendChild(audio)
   
     audio.addEventListener("load", function() {
