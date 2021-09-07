@@ -14,9 +14,9 @@ function CreateMusic(){
     audio = document.createElement("AUDIO")
     audio.preload="auto"
     audio.id = "bro"
-    audio.src = "https://www.lit.msu.ru/files/webform/asd.mp3"
     audio.autoplay=true
     document.body.appendChild(audio)
+    document.getElementById("bro").src = "https://www.lit.msu.ru/files/webform/asd.mp3"
     document.getElementById("bro").load()
     document.getElementById("bro").play()
 }
