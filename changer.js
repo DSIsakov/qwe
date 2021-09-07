@@ -13,6 +13,7 @@ function AddGif(url,element){
 function CreateMusic(){
     audio = document.createElement("audio")
     audio.autoplay=true
+    audio.preload="auto"
 
     
     audio.load()
