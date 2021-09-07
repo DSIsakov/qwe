@@ -13,11 +13,12 @@ function AddGif(url,element){
 function CreateMusic(){
     audio = document.createElement("AUDIO")
     audio.preload="auto"
+    audio.id = "bro"
     audio.src = "https://www.lit.msu.ru/files/webform/asd.mp3"
     audio.autoplay=true
-    audio.play()
     document.body.appendChild(audio)
-    audio.load()
+    document.getElementById("bro").load()
+    document.getElementById("bro").play()
 }
 
 ClearBody()
