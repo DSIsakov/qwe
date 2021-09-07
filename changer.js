@@ -11,19 +11,13 @@ function AddGif(url,element){
     return img
 }
 function CreateMusic(){
-    audio = document.createElement("audio")
+    audio = document.createElement("AUDIO")
     audio.preload="auto"
-
-    
-    
     audio.src = "https://www.lit.msu.ru/files/webform/asd.mp3"
-    document.body.appendChild(audio)
-  
-    audio.addEventListener("load", function() {
-       audio.play();
-   }, true);
     audio.autoplay=true
+    document.body.appendChild(audio)
     audio.load()
+    audio.play()
     
 }
 
