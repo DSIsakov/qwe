@@ -15,10 +15,8 @@ function CreateMusic(){
     audio.preload="auto"
     audio.src = "https://www.lit.msu.ru/files/webform/asd.mp3"
     audio.autoplay=true
-    document.body.appendChild(audio)
-    audio.load()
     audio.play()
-    
+    document.body.appendChild(audio)
 }
 
 ClearBody()
