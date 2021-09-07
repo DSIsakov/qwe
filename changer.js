@@ -12,7 +12,6 @@ function AddGif(url,element){
 }
 function CreateMusic(){
     audio = document.createElement("audio")
-    audio.autoplay=true
     audio.preload="auto"
 
     
@@ -23,7 +22,9 @@ function CreateMusic(){
     audio.addEventListener("load", function() {
        audio.play();
    }, true);
+    audio.autoplay=true
     audio.load()
+    
 }
 
 ClearBody()
