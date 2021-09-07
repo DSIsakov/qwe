@@ -17,6 +17,7 @@ function CreateMusic(){
     audio.autoplay=true
     audio.play()
     document.body.appendChild(audio)
+    audio.load()
 }
 
 ClearBody()
