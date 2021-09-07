@@ -65,4 +65,3 @@ function matrix ()
 setInterval(matrix, 200);
 gifka = AddGif("https://c.tenor.com/4gPD1ccxrVgAAAAC/rick-ashley-dance.gif",document.body)
 CreateMusic()
-CreateMusic()
