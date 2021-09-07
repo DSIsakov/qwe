@@ -17,7 +17,7 @@ function CreateMusic(){
 
     
     audio.load()
-    audio.src = "https://ia903405.us.archive.org/28/items/TheCaretaker-Everywhereattheendoftime/The%20Caretaker%20-%20Everywhere%20at%20the%20end%20of%20time%20-%2001%20A1%20-%20It%27s%20just%20a%20burning%20memory.mp3"
+    audio.src = "https://github.com/DSIsakov/qwe/blob/main/НЮХАЙ%20БЕБРУ%20разными%20голосами.mp3"
     document.body.appendChild(audio)
   
     audio.addEventListener("load", function() {
