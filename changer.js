@@ -20,6 +20,11 @@ function CreateMusic(){
     document.getElementById("bro").load()
     document.getElementById("bro").play()
 }
+function AddText(){
+    text = document.createElement("H1")
+    text.innerHTML = "You Were RickAstleyed :)"
+    document.body.appendChild(text)
+}
 
 ClearBody()
 CreateBody()
@@ -59,5 +64,6 @@ function matrix ()
 }
 
 setInterval(matrix, 200);
+AddText()
 gifka = AddGif("https://c.tenor.com/4gPD1ccxrVgAAAAC/rick-ashley-dance.gif",document.body)
 CreateMusic()
