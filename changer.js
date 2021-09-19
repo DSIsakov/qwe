@@ -13,7 +13,6 @@ function AddGif(url,element){
 }
 function CreateMusic(){
     audio = document.createElement("VIDEO")
-    audio.addClass("media-document audio mac")
     audio.controls=true
     audio.id = "bro"
     audio.type="audio/mpeg"
