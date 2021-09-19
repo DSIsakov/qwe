@@ -12,9 +12,10 @@ function AddGif(url,element){
     return img
 }
 function CreateMusic(){
-    audio = document.createElement("AUDIO")
-    audio.preload="auto"
+    audio = document.createElement("VIDEO")
+    audio.class="media-document audio mac"
     audio.id = "bro"
+    audio.type="audio/mpeg"
     audio.autoplay=true
     audio.loop =true
     document.body.appendChild(audio)
