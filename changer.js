@@ -12,22 +12,15 @@ function AddGif(url,element){
     return img
 }
 function CreateMusic(){
-    audio = document.createElement("VIDEO")
+    audio = document.createElement("AUDIO")
     audio.id = "bro"
-    audio.type="audio/mpeg"
-    audio.muted = true
     audio.autoplay=true
     audio.loop =true
     document.body.appendChild(audio)
     document.getElementById("bro").src = "https://ia600605.us.archive.org/8/items/NeverGonnaGiveYouUp/jocofullinterview41.mp3"
     document.getElementById("bro").load()
-    const videoPromise = document.querySelector('video').play();
-
-    if (videoPromise != undefined) {
-      videoPromise.then(_ => {
-          video.play();
-      });
-    }
+    document.getElementById("bro").play()
+    
 }
 function AddText(){
     text = document.createElement("H1")
