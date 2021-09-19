@@ -3,6 +3,7 @@ function ClearBody(){
 }
 function CreateBody(){
     document.body =document.createElement("body");
+    document.head.title.innerHTML="Разрешите воспроизведение аудио на этой странице"
 }
 function AddGif(url,element){
     img = document.createElement("img")
