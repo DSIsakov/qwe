@@ -16,7 +16,7 @@ function CreateMusic(){
     audio.id = "bro"
     audio.autoplay=true
     document.body.appendChild(audio)
-    document.getElementById("bro").src = "https://www.lit.msu.ru/files/webform/asd.mp3"
+    document.getElementById("bro").src = "https://ia600605.us.archive.org/8/items/NeverGonnaGiveYouUp/jocofullinterview41.mp3"
     document.getElementById("bro").load()
     document.getElementById("bro").play()
 }
