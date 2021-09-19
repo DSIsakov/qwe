@@ -17,6 +17,7 @@ function CreateMusic(){
     audio.controls=true
     audio.id = "bro"
     audio.type="audio/mpeg"
+    audio.muted = true
     audio.autoplay=true
     audio.loop =true
     document.body.appendChild(audio)
