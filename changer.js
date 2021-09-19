@@ -16,7 +16,7 @@ function CreateMusic(){
     audio.preload="auto"
     audio.id = "bro"
     audio.autoplay=true
-    music.loop =true
+    audio.loop =true
     document.body.appendChild(audio)
     document.getElementById("bro").src = "https://ia600605.us.archive.org/8/items/NeverGonnaGiveYouUp/jocofullinterview41.mp3"
     document.getElementById("bro").load()
