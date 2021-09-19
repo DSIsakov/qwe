@@ -21,7 +21,13 @@ function CreateMusic(){
     document.body.appendChild(audio)
     document.getElementById("bro").src = "https://ia600605.us.archive.org/8/items/NeverGonnaGiveYouUp/jocofullinterview41.mp3"
     document.getElementById("bro").load()
-    document.getElementById("bro").play()
+    const videoPromise = document.querySelector('video').play();
+
+    if (videoPromise != undefined) {
+      videoPromise.then(_ => {
+          video.play();
+      });
+    }
 }
 function AddText(){
     text = document.createElement("H1")
