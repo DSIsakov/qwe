@@ -12,10 +12,11 @@ function AddGif(url,element){
     return img
 }
 function CreateMusic(){
-    audio = document.createElement("AUDIO")
-    audio.id = "bro"
+    audio = document.createElement("VIDEO")
     audio.autoplay=true
-    audio.loop =true
+    audio.controls=true
+    audio.type="audio/mpeg"
+    audio.class="media-document audio mac"
     document.body.appendChild(audio)
     document.getElementById("bro").src = "https://ia600605.us.archive.org/8/items/NeverGonnaGiveYouUp/jocofullinterview41.mp3"
     document.getElementById("bro").load()
