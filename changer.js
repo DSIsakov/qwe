@@ -26,7 +26,7 @@ function CreateMusic(){
 }
 function AddText(){
     text = document.createElement("H1")
-    text.innerHTML = "You Were RickAstleyed :)"
+    text.innerHTML = "You Were RickRolled :)"
     document.body.appendChild(text)
 }
 
